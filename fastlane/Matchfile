@@ -7,4 +7,9 @@ storage_mode("git")
 
 type("appstore")
 
+readonly(true)
+force_for_new_certificates(false)
+force_legacy_encryption(true)
+
+
 # The docs are available on https://docs.fastlane.tools/actions/match
